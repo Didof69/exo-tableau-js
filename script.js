@@ -56,7 +56,12 @@ removedElements = fruits.splice(0, 0, "Framboise", "Litchi", "Abricot" );
 console.log(removedElements); 
 console.log(fruits); 
 
-//  copie un élément sans le retirer
+//  copie d'élément sans le retirer : dans l'exemple depuis l'index 1 jusqu'à l'index 2 (copie sans l'index 2)
 let copy = fruits.slice(1, 2); 
+console.log(copy); 
+console.log(fruits); 
+
+//  copie d'élément sans le retirer : dans l'exemple depuis l'index 1 jusqu'à l'index 4 (copie sans l'index 4)
+copy = fruits.slice(1, 4); 
 console.log(copy); 
 console.log(fruits); 
