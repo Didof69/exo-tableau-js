@@ -65,3 +65,24 @@ console.log(fruits);
 copy = fruits.slice(1, 4); 
 console.log(copy); 
 console.log(fruits); 
+
+fruits = [
+  "papaye",
+  "framboise",
+  "noix de coco",
+  "banane",
+  "raisin",
+  "mangue",
+  "cerise",
+  "pomme",
+];
+
+// je recupère l'index de banane
+index = fruits.indexOf("banane");
+console.log(fruits);
+console.log(index);
+
+// je retire depuis l'index 1 élément
+removedElements = fruits.splice(index,1);
+console.log(removedElements); 
+console.log(fruits); 
